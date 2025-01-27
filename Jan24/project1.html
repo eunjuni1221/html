@@ -78,7 +78,7 @@
             <div><span style="color: gray; font-size: larger;">Get access to your account</span></div>
             <br>
             <br>
-            <div class="d-grid gap-2 col-5 mx-auto">
+            <div class="d-grid gap-2 col-8 mx-auto">
                 <button class="btn btn-outline-dark" type="button" onclick="location.href='https://myaccount.google.com/'"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-google" viewBox="0 0 16 16">
                     <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
                   </svg>&emsp;Sign in with google</button>
@@ -88,25 +88,36 @@
               </div>
            </div>
            <br>
-            <div class="hr-sect">or use email</div>
+            <div class="hr-sect col-8 mx-auto">or use email</div>
             <form>
-                <div class="mb-3" style="text-align: left;" id="drop_the_text">
+                <div class="mb-3 col-8 mx-auto" style="text-align: left;" id="drop_the_text" >
                   <label for="exampleInputEmail1" class="form-label">ID</label>
-                  <p id = "drop_the_text"><input type="e" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com"></p>
+                  <p id = "drop_the_text"><input type="e" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com" ></p>
                 </div>
-                <div class="mb-3" style="text-align: left;" >
+                <div class="mb-3 col-8 mx-auto" style="text-align: left;" >
                   <label for="exampleInputPassword1" class="form-label">Password</label>
                   <p id="drop_the_text2"><input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"></div></p>
                 </div>
                 <div>
-                  <div class="form-check" style="justify-content: center;">
+                  <div class="form-check col-8 mx-auto" style="text-align: left;">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault" style="text-align: left;">&nbsp;Remember me</label>
-                    <p style="float: right;"><label style="color: blue;" style="justify-content: rights;">Forgot Password?</label></p>
+                    <label class="form-check-label" for="flexCheckDefault">&nbsp;Remember me</label>
+                    <a href="#" style="float: right; color: blue; text-decoration: none;">Forgot Password</a>
                 </div>
-                <div class="col">
+                <div class="row">
+                  <div class="col-8 mx-auto">
+                    <button class="btn btn-primary" type="submit" style="width: 100%; height:40px; color: white; margin-top: 20px;">
+                      <b>Sign In</b></button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-8 mx-auto">
+                    <div style="color: blue; margin-bottom: 10%; text-align: center; font-size: large;">
+                      <br>Create an account
+                    </div>
+                  </div>
+                </div>
 
-                </div>
               </form>
         </div>
 
