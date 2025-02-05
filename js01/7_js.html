@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function kkkk(x, y){
+            if (x == 0 && y == 0) {
+            return ("원점에 있습니다.");
+        } else if (x == 0 || y == 0) {
+            if (x == 0) {
+                return("y선에 있습니다.");
+            } else {
+                return("x선에 있습니다.");
+            }
+        } else {
+            if (x > 0) {
+                if (y > 0) {
+                    return("1사분면에 있습니다.");
+                } else {
+                    return("4사분면에 있습니다.");
+                }
+            } else {
+                if (y > 0) {
+                    return("2사분면에 있습니다.");
+                } else {
+                    return("3사분면에 있습니다.");
+                }
+            }
+        }
+        }
+        var result = kkkk(-1, 2)
+        alert(result);
+    </script>
+</body>
+</html>
